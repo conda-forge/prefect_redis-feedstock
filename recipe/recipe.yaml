@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: prefect_redis
-  version: "0.2.7"
+  version: "0.2.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/prefect_redis-${{ version }}.tar.gz
-  sha256: 8e262c01813661b7d5663fa008f4f412cad04f203b6be355beb670e67a5feaea
+  sha256: ca18498f1906ae63e0c72d42bdd0001617867f894792a442091aa5e7a14264d4
 
 build:
   number: 0
